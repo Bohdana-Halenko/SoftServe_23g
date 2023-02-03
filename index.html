@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftServe</title>
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
 </head>
 <body>
@@ -62,7 +62,13 @@
         <section id="about">
             <div>
                 <div>
-                    <img src="img/home/people.jpg" alt="Team">
+                    <picture>
+                        <source srcset="
+                                        img/home/people.jpg    1x,
+                                        img/home/people@2x.jpg 2x
+                                      " />
+                        <img src="img/home/people.jpg" alt="Team">
+                    </picture>
                 </div>
                 <div>
                     <p>What you are looking for</p>
@@ -82,12 +88,48 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
             </div>
             <div>
-                <img src="img/cases/cases1.jpg" alt="Team at the table">
-                <img src="img/cases/cases2.jpg" alt="Team at the table">
-                <img src="img/cases/cases3.jpg" alt="Team at the table">
-                <img src="img/cases/cases4.jpg" alt="Team at the table">
-                <img src="img/cases/cases5.jpg" alt="Team at the table">
-                <img src="img/cases/cases6.jpg" alt="Team at the table">
+                <picture>
+                    <source srcset="
+                                    img/cases/cases1.jpg    1x,
+                                    img/cases/cases1@2x.jpg 2x
+                                  " />
+                    <img src="img/cases/cases1.jpg" alt="Team">
+                </picture>
+                <picture>
+                    <source srcset="
+                                    img/cases/cases2.jpg    1x,
+                                    img/cases/cases2@2x.jpg 2x
+                                  " />
+                    <img src="img/cases/cases2.jpg" alt="Laptop">
+                </picture>
+                <picture>
+                    <source srcset="
+                                    img/cases/cases3.jpg    1x,
+                                    img/cases/cases3@2x.jpg 2x
+                                  " />
+                    <img src="img/cases/cases3.jpg" alt="Diagram">
+                </picture>
+                <picture>
+                    <source srcset="
+                                    img/cases/cases4.jpg    1x,
+                                    img/cases/cases4@2x.jpg 2x
+                                  " />
+                    <img src="img/cases/cases4.jpg" alt="Builds">
+                </picture>
+                <picture>
+                    <source srcset="
+                                    img/cases/cases5.jpg    1x,
+                                    img/cases/cases5@2x.jpg 2x
+                                  " />
+                    <img src="img/cases/cases5.jpg" alt="Colleagues">
+                </picture>
+                <picture>
+                    <source srcset="
+                                    img/cases/cases6.jpg    1x,
+                                    img/cases/cases6@2x.jpg 2x
+                                  " />
+                    <img src="img/cases/cases6.jpg" alt="Team">
+                </picture>
             </div>
         </section>
 
@@ -102,7 +144,14 @@
                     <button>Read Our Blog</button>
                 </div>
                 <div>
-                    <img src="img/home/blog.jpg" alt="Books">
+                    <picture>
+                        <source srcset="
+                                        img/home/blog.jpg    1x,
+                                        img/home/blog@2x.jpg 2x
+                                      " />
+                        <img src="img/home/blog.jpg" alt="Books">
+                    </picture>
+                    
                 </div>
             </div>
         </section>
