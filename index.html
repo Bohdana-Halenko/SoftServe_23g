@@ -6,61 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftServe</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
     <!-- HEADER -->
-    <header>
-        <div>
-            <svg width="69" height="56">
-                <use href="img/symbol-defs.svg#icon-logo"></use>
-            </svg>
-            <p>
-                <span>Finance</span>
-                Book
-            </p>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <svg width="40" height="35">
+                    <use href="img/symbol-defs.svg#icon-logo"></use>
+                </svg>
+                <p class="header__logo-name">
+                    Finance
+                    <span class="header__logo-white">Book</span>
+                </p>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__items">
+                    <li class="header__item">
+                        <a class="header__item-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="index.html#cases">Cases</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="index.html#blog">Blog</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html#home">Home</a>
-                </li>
-                <li>
-                    <a href="index.html#about">About</a>
-                </li>
-                <li>
-                    <a href="index.html#cases">Cases</a>
-                </li>
-                <li>
-                    <a href="index.html#blog">Blog</a>
-                </li>
-                <li>
-                    <a href="index.html#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     
     <!-- MAIN PART -->
     <main>
 
         <!-- HOME -->
-        <section id="home">
-            <h1>Lorem ipsum dolor sit</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-            <button>
-                <svg width="7" height="11">
-                    <use href="img/symbol-defs.svg#icon-angle-right"></use>
-                </svg>
-                Read More
-            </button>
+        <section id="home" class="home">
+            <div class="home__wrapper">
+                <h1 class="home__title">Lorem ipsum dolor sit</h1>
+                <p class="home__text">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <button class="home__btn">
+                    <svg width="9" height="18" class="home__svg">
+                        <use href="img/symbol-defs.svg#icon-angle-right"></use>
+                    </svg>
+                    Read More
+                </button>
+            </div>   
         </section>
 
 
         <!-- ABOUT -->
-        <section id="about">
-            <div>
-                <div>
+        <section id="about" class="about">
+            <div class="about__wrapper">
+                <div class="about__photo">
                     <picture>
                         <source srcset="
                                         img/home/people.jpg    1x,
@@ -69,11 +74,11 @@
                         <img src="img/home/people.jpg" alt="Team">
                     </picture>
                 </div>
-                <div>
+                <div class="about__block">
                     <p>What you are looking for</p>
                     <h2>We provide bespoke solutions</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
-                    <button>Read More</button>
+                    <button class="about__btn">Read More</button>
                 </div>
             </div>
         </section>
@@ -157,12 +162,12 @@
 
 
         <!-- TEAM-->
-        <section>
-            <div>
+        <section id="team" class="team">
+            <div class="team__wrapper">
                 <p>Who we are</p>
                 <h2>Our Professional Team</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-                <ul>
+                <ul class="team__items">
                     <li>
                         <picture>
                             <source srcset="
@@ -227,39 +232,40 @@
 
 
     <!-- FOOTER -->
-    <footer>
-        <div>
-            <ul>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use href="img/symbol-defs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use href="img/symbol-defs.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use href="img/symbol-defs.svg#icon-youtube"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use href="img/symbol-defs.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            <p>Copyright &#169; 2021 - FinanceBook</p>
+    <footer class="footer">
+        <div class="footer__container">
+                <ul class="footer__links">
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="img/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="img/symbol-defs.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            
+            <p class="footer__text">Copyright &#169; 2021 - FinanceBook</p>
         </div>
     </footer>
 </body>
