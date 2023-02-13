@@ -1,0 +1,13 @@
+.blog{
+    margin-bottom: 100px;
+}
+.blog__wrapper{
+    display: flex;
+}
+.blog__block{
+    width: 50%;
+    background-color: #0284D0;
+}
+.blog__photo{
+    width: 50%;
+}
