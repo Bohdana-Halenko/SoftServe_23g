@@ -39,3 +39,17 @@ section {
 .section {
     margin-bottom: 100px;
 }
+.conteiner {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .conteiner {
+      width: 768px;
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    .conteiner {
+      width: 1360px;
+    }
+  }
