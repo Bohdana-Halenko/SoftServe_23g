@@ -2,10 +2,11 @@
     padding-top: 270px;
     padding-bottom: 270px;
     background-color: #2f303a;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home/showcase.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('../img/home/showcase.jpg') no-repeat center center fixed;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     display: flex;
     align-items: center;
 }

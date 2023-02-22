@@ -1,7 +1,20 @@
-.header{
+header {
     position: absolute;
-    width: 100%;
-}
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px; /* початкова висота для мобільних */
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Визначте стилі для фіксованої позиції */
+  header.fixed {
+    position: fixed;
+    height: 70px; 
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
 .header__wrapper{
     margin-right: auto;
     margin-left: auto;
