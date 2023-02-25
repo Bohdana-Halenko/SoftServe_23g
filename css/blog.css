@@ -1,13 +1,18 @@
-.blog{
-    margin-bottom: 100px;
-}
 .blog__wrapper{
     display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
 }
 .blog__block{
-    width: 50%;
     background-color: #0284D0;
+    @media (min-width: 768px) {
+        width: 50%;
+    }
 }
 .blog__photo{
-    width: 50%;
+    @media (min-width: 768px) {
+        width: 50%;
+    }
 }
