@@ -27,10 +27,6 @@
 .cases__img{
     margin-top: 8px;
 }
-
-
-
-
 .cases__gallery{
     @media (min-width: 768px) {
         display: flex;
