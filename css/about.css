@@ -1,6 +1,3 @@
-.about__wrapper{
-    display: flex;
-}
 .about__block{
     padding: 79px 20px;
     color: #fff;
@@ -39,6 +36,13 @@
     }
     .about__photo{
         width: 50%;
+    }
+    .about__img{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .about__block{
         padding: 80px 20px;
