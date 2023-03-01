@@ -3,23 +3,20 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 120px;
+    height: 70px;
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
+    padding: 20px 28px;
   }
 header.fixed {
     position: fixed;
-    height: 70px; 
+    height: 45px; 
     background-color: rgba(0, 0, 0, 0.8);
 }
 .header__wrapper{
     margin-right: auto;
     margin-left: auto;
     max-width: 1360px;
-    padding: 32px 28px;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
 }
 .header__logo{
     display: flex;
@@ -45,4 +42,12 @@ header.fixed {
     line-height: 25px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .header__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
