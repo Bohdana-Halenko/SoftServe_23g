@@ -1,11 +1,19 @@
 .contact__wrapp{ 
-    display: flex; 
+    display: flex;
+    flex-direction: column;
 } 
-.callback__info-wrapper{ 
+.contact__info-wrapper{ 
     background: #F4F4F4; 
 } 
 @media (min-width: 768px) { 
-    .about__wrapper{ 
+    .contact__wrapp{ 
         display: flex; 
+        flex-direction: row;
     } 
+    .contact__photo{
+        width: 50%;
+    }
+    .contact__info-wrapper{
+        width: 50%;
+    }
 }
