@@ -27,7 +27,14 @@
     font-size: 16px; 
     cursor: pointer; 
     border: 1px solid #fff; 
+    transition: all 250ms ease-in 0s;
 } 
+.about__btn:hover,
+.about__btn:focus{  
+    background-color: #fff; 
+    color: #28A745;  
+    border: 1px solid #28A745; 
+}
  
  
 @media (min-width: 768px) { 

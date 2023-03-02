@@ -42,7 +42,12 @@
     justify-content: center; 
     font-size: 18px; 
     cursor: pointer; 
+    transition: all 250ms ease-in 0s;
 } 
+.home__btn:hover,
+.home__btn:focus{
+    background-color: #2EBF4F;
+}
 .home__svg{ 
     margin-right: 8px; 
 }
