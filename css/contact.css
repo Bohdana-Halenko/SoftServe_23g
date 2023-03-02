@@ -1,11 +1,11 @@
-.contact__wrapp{
-    display: flex;
-}
-.callback__info-wrapper{
-    background: #F4F4F4;
-}
-@media (min-width: 768px) {
-    .about__wrapper{
-        display: flex;
-    }
+.contact__wrapp{ 
+    display: flex; 
+} 
+.callback__info-wrapper{ 
+    background: #F4F4F4; 
+} 
+@media (min-width: 768px) { 
+    .about__wrapper{ 
+        display: flex; 
+    } 
 }
