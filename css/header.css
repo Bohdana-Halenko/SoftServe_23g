@@ -42,17 +42,22 @@ header.fixed {
     display: flex; 
 } 
 .header__item{ 
-    margin-left: 40px;    
+    margin-left: 6px;   
+    margin-right: 6px;
 } 
 .header__item-link{ 
     font-weight: 400; 
-    font-size: 18px; 
-    line-height: 25px; 
+    font-size: 16px; 
+    line-height: 22px; 
     color: #FFFFFF; 
     cursor: pointer; 
 } 
  
 @media screen and (min-width: 768px) { 
+    .header__item-link {
+        font-size: 18px;
+        line-height: 25px;
+    }
     header.fixed { 
         height: 70px;   
     }
@@ -66,8 +71,16 @@ header.fixed {
     .header__logo-name{  
         line-height: 0px;  
     }
+    .header__item {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
 }
 @media screen and (min-width: 1360px) { 
+    .header__item {
+        margin-left: 40px;
+        margin-right: 0px;
+    }
     .header__wrapper{ 
         padding: 28px 32px 0px;
     } 
